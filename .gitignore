@@ -44,7 +44,7 @@ Temporary Items
 
 
 # Files to be ignored
-.class
-.dex
-.txt
-bin/
+*.class
+*.dex
+*.txt
+bin/*.*
