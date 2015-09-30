@@ -12,31 +12,31 @@ public class SecondActivity extends Activity {
 }
 	@Override
 	protected void onDestroy() {
-		Log.i("Activity A", "Activity A is destroyed");
+		Log.i("SecondActivity", "SecondActivity is destroyed");
 		super.onDestroy();
 	}
 
 	@Override
 	protected void onPause() {
-		Log.i("Activity A", "Activity A is paused");
+		Log.i("SecondActivity", "SecondActivity is paused");
 		super.onPause();
 	}
 
 	@Override
 	protected void onResume() {
-		Log.i("Activity A", "Activity A is Resumed");
+		Log.i("SecondActivity", "SecondActivity is Resumed");
 		super.onResume();
 	}
 
 	@Override
 	protected void onStart() {
-		Log.i("Activity A", "Activity A is started");
+		Log.i("SecondActivity", "SecondActivity is started");
 		super.onStart();
 	}
 
 	@Override
 	protected void onStop() {
-		Log.i("Activity A", "Activity A is stopped");
+		Log.i("SecondActivity", "SecondActivity is stopped");
 		super.onStop();
 	}
 
