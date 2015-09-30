@@ -1,7 +1,7 @@
 package com.sourcebits.calarea.model;
 
 public class Square implements Shape{
-	private int length;
+	final int length;
 	 public Square (int length)
 	 {
 		 this.length = length;

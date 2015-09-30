@@ -48,3 +48,6 @@ Temporary Items
 *.dex
 *.txt
 bin/*.*
+*.class
+*.class
+AreaCal/bin/classes/com/sourcebits/areacal/SecondActivity.class

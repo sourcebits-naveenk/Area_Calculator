@@ -1,8 +1,8 @@
 package com.sourcebits.calarea.model;
 
 public class Rectangle implements Shape{
-	private int length;
-	 private int width;
+	final int length;
+	final int width;
 	 public Rectangle (int length, int width)
 	 {
 		 this.length = length;

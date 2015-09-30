@@ -1,7 +1,7 @@
 package com.sourcebits.calarea.model;
 
 public class Cube implements Shape {
-	 private int length;
+	 final int length;
 	 public Cube (int length)
 	 {
 		 this.length = length;

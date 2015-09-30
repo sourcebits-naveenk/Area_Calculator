@@ -1,16 +1,13 @@
 package com.sourcebits.calarea.model;
 
 public class Triangle implements Shape {
-	 private int a, b, c;
-	 public int s;
-	 public Triangle (int a, int b, int c)
+	final double height, base;
+	 public Triangle (double height, double base)
 	 {
-		 this.a = a;
-		 this.b = b;
-		 this.c = c;
-		 s = (a+b+c)/2;
+		 this.height = height;
+		 this.base = base;
 	 }
 	 public double getArea(){
-		 return s*(s-a)*(s-b)*(s-c);
+		 return 0.5*height*base;
 	 }
 }
