@@ -43,6 +43,8 @@ Temporary Items
 .apdisk
 
 
-# Naveen
+# Files to be ignored
 .class
-.xml
+.dex
+.txt
+bin/
